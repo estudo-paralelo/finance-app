@@ -17,6 +17,10 @@
 		AC27B2322150299E001092C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27B2302150299E001092C4 /* LaunchScreen.storyboard */; };
 		AC27B23D2150299E001092C4 /* finance_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27B23C2150299E001092C4 /* finance_appTests.swift */; };
 		AC27B2482150299E001092C4 /* finance_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27B2472150299E001092C4 /* finance_appUITests.swift */; };
+		AC3C20E9216412AE00751B59 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20E8216412AE00751B59 /* ExampleViewController.swift */; };
+		AC3C20EB2164140600751B59 /* TabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20EA2164140600751B59 /* TabBarItemContentView.swift */; };
+		AC3C20ED216414EB00751B59 /* BouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20EC216414EB00751B59 /* BouncesContentView.swift */; };
+		AC3C20EF216415E800751B59 /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20EE216415E800751B59 /* ExampleNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		AC27B2432150299E001092C4 /* finance-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "finance-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC27B2472150299E001092C4 /* finance_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finance_appUITests.swift; sourceTree = "<group>"; };
 		AC27B2492150299E001092C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3C20E8216412AE00751B59 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		AC3C20EA2164140600751B59 /* TabBarItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemContentView.swift; sourceTree = "<group>"; };
+		AC3C20EC216414EB00751B59 /* BouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncesContentView.swift; sourceTree = "<group>"; };
+		AC3C20EE216415E800751B59 /* ExampleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
 		B1E5B88F52661C692E2B87FA /* Pods_finance_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finance_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB731FEB3D7732D02C6ABCB /* Pods-finance-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finance-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-finance-appUITests/Pods-finance-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D44A0954746BA793532E69FC /* Pods-finance-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finance-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-finance-appUITests/Pods-finance-appUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,10 +124,14 @@
 			children = (
 				AC27B2272150299D001092C4 /* AppDelegate.swift */,
 				AC27B2292150299D001092C4 /* ViewController.swift */,
+				AC3C20E8216412AE00751B59 /* ExampleViewController.swift */,
 				AC27B22B2150299D001092C4 /* Main.storyboard */,
 				AC27B22E2150299E001092C4 /* Assets.xcassets */,
 				AC27B2302150299E001092C4 /* LaunchScreen.storyboard */,
 				AC27B2332150299E001092C4 /* Info.plist */,
+				AC3C20EA2164140600751B59 /* TabBarItemContentView.swift */,
+				AC3C20EC216414EB00751B59 /* BouncesContentView.swift */,
+				AC3C20EE216415E800751B59 /* ExampleNavigationController.swift */,
 			);
 			path = "finance-app";
 			sourceTree = "<group>";
@@ -393,6 +405,10 @@
 			files = (
 				AC27B22A2150299D001092C4 /* ViewController.swift in Sources */,
 				AC27B2282150299D001092C4 /* AppDelegate.swift in Sources */,
+				AC3C20ED216414EB00751B59 /* BouncesContentView.swift in Sources */,
+				AC3C20E9216412AE00751B59 /* ExampleViewController.swift in Sources */,
+				AC3C20EF216415E800751B59 /* ExampleNavigationController.swift in Sources */,
+				AC3C20EB2164140600751B59 /* TabBarItemContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
