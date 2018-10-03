@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
         tabBarController.delegate = self
         tabBarController.title = "Irregularity"
         tabBarController.tabBar.shadowImage = UIImage(named: "transparent")
-        tabBarController.tabBar.backgroundImage = UIImage(named: "background_dark")
+        tabBarController.tabBar.backgroundImage = UIImage(named: "background-dark-blue")
         tabBarController.shouldHijackHandler = {
             tabbarController, viewController, index in
             if index == 2 {
@@ -51,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
         let v5 = ExampleViewController()
         v1.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Home", image: UIImage(named: "home"))
         v2.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Find", image: UIImage(named: "list"))
-        v3.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Photo", image: UIImage(named: "us-dollar"))
+        v3.tabBarItem = ESTabBarItem.init(IrregularTabBarIconView(), title: "", image: UIImage(named: "us-dollar-big"))
         v4.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Favor", image: UIImage(named: "favor"))
         v5.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Me", image: UIImage(named: "me"))
         
