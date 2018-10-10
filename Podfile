@@ -8,6 +8,7 @@ target 'finance-app' do
   # Pods for finance-app
 
   pod "ESTabBarController-swift"
+  pod "Hero"
 
   target 'finance-appTests' do
     inherit! :search_paths

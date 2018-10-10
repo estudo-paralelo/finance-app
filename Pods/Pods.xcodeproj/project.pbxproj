@@ -7,106 +7,224 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B010F8264AC9C706D2BE84193272EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		1E5948EB4ABE0670F66D1278BF5D43F7 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D5425DCBBEA8B7937E81296D1518A /* ESTabBarItemContainer.swift */; };
-		2C824053E621164715BC88403AA5432F /* Pods-finance-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91019425E0A8EBBA9DACBF9A5488990B /* Pods-finance-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B4BED5F4E3FAA4FEB84F7EF9D97841 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FEE06B9122D3890974DF15C01C7D4 /* HeroAnimatorViewContext.swift */; };
+		0AC6BFAFD48EB1271503CB0E82994B5D /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE43DFC1F83C21BE8175D279953E1C4 /* HeroTransition+Animate.swift */; };
+		1349B7E61C548402E2808E92A7BA4B5E /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796F243D6FED364D21C8FC2FCDE43E40 /* HeroModifier+HeroStringConvertible.swift */; };
+		15C88A7113C79C7BF327E59744B3E3BC /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA441307C7F953F583841E833BE8BD /* Regex.swift */; };
+		17C1D4357243F5D3BDA3DB5B8E6B9B5B /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBDC5578ACFE2FA40B1AF279A37EE1 /* HeroTransition+Complete.swift */; };
+		1936B01C5D3224DE0A2EA327672BCE1A /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B1CB430B878A8503580C2E0AD53F6 /* DefaultAnimationPreprocessor.swift */; };
+		1A8DE7DC6EA68BA56067CBC46913ECE1 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E942CDBCBE03E3442CC0982A5C515F /* CG+Hero.swift */; };
+		1B010F8264AC9C706D2BE84193272EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		1DB374F9285505666B1113879A725EEF /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D979200C5773C2FC40467B8F32B86A /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E5948EB4ABE0670F66D1278BF5D43F7 /* ESTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E03B9D1995457209B59DAC7814975 /* ESTabBarItemContainer.swift */; };
+		1FE24D87AC075FA15D5ADF13BB193037 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D616E680AC39AB7C7BF817FE5B9BC /* HeroTransition+CustomTransition.swift */; };
+		292E09257EF91BD4ED2C65939B02DE76 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCC2376CA58E4438AF3BDD75B711EC4 /* Lexer.swift */; };
+		2A1F75A11800E185E26D5E442835AC7D /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35A2867E31A303F2ECC97BA6B0ABF17 /* HeroDefaultAnimator.swift */; };
 		2E5ABF366C5C4ACCA3436D160471234F /* Pods-finance-appTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA003BA732A8C8AA50733C76976DCC /* Pods-finance-appTests-dummy.m */; };
-		318B4F187C24568DB60A3A3C33FB4615 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA10E9F2A24F56CCF101AFE407D810B /* ESTabBarController.swift */; };
-		35F82D0069A80A5C37921295BCD22517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3FC859B0B46FD320F8EE2CCBF080B38D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		49FFB192877EE35620598B97A922A332 /* ESTabBarController-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1A20405E427CA8F62EA86835551052 /* ESTabBarController-swift-dummy.m */; };
-		5428D5ABE8AE58A7FCCBD1CBC1FFD484 /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9502D20E6A216DD410CC4E718502E3 /* ESTabBarItemContentView.swift */; };
+		2EF76EA82E380062E6A20AE164FDE20D /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8B89A3CCAE582559A716FD9028C580 /* UIView+Hero.swift */; };
+		318B4F187C24568DB60A3A3C33FB4615 /* ESTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781B933DBC4A2C4C13724DDF5893004 /* ESTabBarController.swift */; };
+		35F82D0069A80A5C37921295BCD22517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		38ACDE0DF34909BFF69AE3BE738BD43F /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42141999374350AD96C6C9535AC6D6F /* HeroCompatible.swift */; };
+		3EDDB8DA09445C9981C97D8C7226DFB2 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C166FFD850BE688DD6A5834607D1E /* CALayer+Hero.swift */; };
+		3FC859B0B46FD320F8EE2CCBF080B38D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		414908427F17B27ED00C92F24F3277C7 /* Pods-finance-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91019425E0A8EBBA9DACBF9A5488990B /* Pods-finance-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FFB192877EE35620598B97A922A332 /* ESTabBarController-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E6D0D8D634D15C5CB5C5A8FE89653A /* ESTabBarController-swift-dummy.m */; };
+		5372EADECAE1C46077FDAAEB9E339E6E /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158112991500F1229364F8DC91A6B8D /* UIViewController+Hero.swift */; };
+		53A1B236E2436BDB090FE0EFF02389DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5428D5ABE8AE58A7FCCBD1CBC1FFD484 /* ESTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA2781DBBE21A0A91DE5F8DA44DC899 /* ESTabBarItemContentView.swift */; };
+		5AB42FC0D87DCF867841712D229E4521 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC63F5C8F9DB8A62C749BFD6E1F0A94E /* HeroCoreAnimationViewContext.swift */; };
+		5ADF1DD2EFEFFA07890EE6DE56F3A35E /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DAC77F246F49B6DD41882C9D60E8AD /* HeroTypes.swift */; };
+		5B00A79CF6F7A0D09522667BEB5DCF5F /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C35BE531E4B383AE17AE4D72197A1D1 /* Hero-dummy.m */; };
+		5BFC77CEEA4E421AC619D5808D378A93 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797FF28E39980F53D61A12BE82357F4 /* Array+HeroModifier.swift */; };
+		5FD1DD09DAE8F4AB2CB278A03173F96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		60DC1E9EB3EFE323A16EF39E034D01BE /* Pods-finance-appUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 073AAD876B3938F4C705EE7703D60297 /* Pods-finance-appUITests-dummy.m */; };
-		8D3D615D3CE949D68C4775A57960787A /* Pods-finance-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD89354647DCC376E810AFDC1962AE /* Pods-finance-app-dummy.m */; };
-		8E5A14FC7FD042DC0E5271E899875BBA /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 99E6FE6A9B121860F0D67D18513ABFCB /* en.lproj */; };
-		A576042A7F4708F82E0BC777F01ABA99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		63AC0A94F4C06BDAE3CB0C1852821F85 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556FF9635984C061BEB63F60F1F70C9E /* MatchPreprocessor.swift */; };
+		72974110C62D6124860F8DFC862B479C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		7517B8CACD655BB56DFEE9FA02F0D82A /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28683764720FA02B23E0F13AA379D351 /* HeroTransition.swift */; };
+		759EAADECF55BF30F968EF19F1CB9FF4 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C208A7BB937463B9315D8FAA04EE85D /* HeroPlugin.swift */; };
+		78CCDC2B70FF0482E95252C1365C3204 /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75CBE7A4E69BC8EFC23840A855B801E /* HeroModifier.swift */; };
+		8E5A14FC7FD042DC0E5271E899875BBA /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9BB39B21740F9652FE1B2127F4D784D6 /* en.lproj */; };
+		8E75511F183C72276DBAC719E4885B4A /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DA7DE6C349B559FDCE343F5FF959FA /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		9645DA8E28A2C17400FAD55878204F9F /* Pods-finance-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD89354647DCC376E810AFDC1962AE /* Pods-finance-app-dummy.m */; };
+		99C2EBFBA2955DF6398F9550DF5245FA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB25BD52BCB8577F1335ED84F1238B /* HeroDebugView.swift */; };
+		9F240CC81313E9FF05DDE385D158BF9C /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0D59401621476FC7E3D4515AD010C0 /* CascadePreprocessor.swift */; };
+		A3287501AFD9F7071A224AD3C3FFDF58 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE010B796A20AC4F2E9038997F5B8E3 /* HeroTransition+Interactive.swift */; };
+		A6FB4694E49F6EE8D08212523563CA81 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7C7DEE0EAAE893010FFDA4F60D937 /* UIKit+Hero.swift */; };
+		A8BAEDAF25017F3C61A1F6BAECF07CF8 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88260A4BEFDFF7C4B927D195FF21C0D /* BasePreprocessor.swift */; };
 		AB5DFF8BF765ED40E06944FE0C38DF9B /* Pods-finance-appUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B02EBA6572BB5EEC1B1BCB8230A22D /* Pods-finance-appUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD827DC2A11268E8D5B0A2CD1CC2D1AD /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC53B8AF18FFE6C0FE38F06C5AF8DE2 /* HeroTransition+Start.swift */; };
+		AF5617DE771E8E321FB7C526F76229BC /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCA1D137A31E809A88ADD3585C17BB8 /* HeroViewPropertyViewContext.swift */; };
 		B18FF5D6742B6357B5E0994611BEB81E /* Pods-finance-appTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94570F706E943C0C2349F49ADD40EC3F /* Pods-finance-appTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E27394736492DFFDF4AE3D1C18BE9167 /* ESTabBarController-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E10976EDAF46FFC498CE6EA001022470 /* ESTabBarController-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE81F253C50C94DA75F7951262FBB242 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A8572D53B93289552B995260A9A72 /* ESTabBar.swift */; };
-		F32A815CFB2D9FA8F755EDCB6449CB06 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70FE3F2C6A721A6ACA46334FAC345D /* ESTabBarItemMoreContentView.swift */; };
-		F58464FC9B64FB039983F36C47438F8F /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036FEBA26D9564BFA8D88757A856BE26 /* ESTabBarItem.swift */; };
-		FA24DF286E58EA369588CF6CADC28F3E /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2825C6F638434F4834D2EA455020837 /* ESTabBarItemBadgeView.swift */; };
+		B19B9466FBF475576C45A2DEE4252A91 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC98C209768E10096CCF3E381867F4 /* HeroContext.swift */; };
+		B4B388B8F6FDDE8C2BE22AC87E95FE56 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91994B6D34C14EFF984EEA70007DF46 /* HeroDebugPlugin.swift */; };
+		B7630FD9D8C01A8114FB22FEFF77C393 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391BCA36DB5369FF26044C135D2ADC98 /* HeroTransitionState.swift */; };
+		BF296E4014D347F98B928398694F9461 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD003D2BD32D41EE82E53643D015A9E /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		C08B6282E4E518773F633ECA6B2AD27F /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7091443985F7E86D84046BBF2A82C8 /* Parser.swift */; };
+		C5D8B60C2202B69D7FC001A92C6E198D /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E3B5270BF9542FE3DE74BE41BA8AD /* Nodes.swift */; };
+		C6209A6A34B9364C11339812819F784C /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A1B261EDD7136FC9D97C246E193C0B /* ConditionalPreprocessor.swift */; };
+		CCDD8368BAFF83A91BFEBD13B105E52B /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C698FC4EC93B489CA154904C88CFA /* HeroViewControllerDelegate.swift */; };
+		D5D5A5E3A5AE94AE02CCF174CBC1DA7B /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF8642855073342A8158A6D09B2A03 /* SourcePreprocessor.swift */; };
+		E27394736492DFFDF4AE3D1C18BE9167 /* ESTabBarController-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F12A5EF86A932CF094F650DA9258037 /* ESTabBarController-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4345235C6545DB48F0F859E7714E68F /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3177E673A41F4FCB183C65CC8721513 /* HeroTargetState.swift */; };
+		E682338D103F4A23B28ABEF910C61599 /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEAAC5E17CD6C3CBC1F9E48D0F9EEB4 /* HeroStringConvertible.swift */; };
+		EBEC8F80F8CFDABA5C3E0AAF95D21CFF /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF993182C0ACD023D8864BB39DC47D9D /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		EE81F253C50C94DA75F7951262FBB242 /* ESTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B8F166CA891BB577EAD7A7A2D9025 /* ESTabBar.swift */; };
+		EF28D714D7E5E19FFF18352AA9539C1B /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C44A6464F9DED999E21D4597CD66E /* DispatchQueue+Hero.swift */; };
+		F32A815CFB2D9FA8F755EDCB6449CB06 /* ESTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071475C9ABB9B1CCAE19A10F2E32378 /* ESTabBarItemMoreContentView.swift */; };
+		F58464FC9B64FB039983F36C47438F8F /* ESTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE71BA377EAE59765884B0902F8D97 /* ESTabBarItem.swift */; };
+		F60C14BAEFBE5D60753468F1E66284AA /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EC9B663521263044296F19D0B3F6B /* CAMediaTimingFunction+Hero.swift */; };
+		F82707F21C810EA6BD652C38E67FE535 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C18DB2C11016B7632666C89F79A892 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		FA24DF286E58EA369588CF6CADC28F3E /* ESTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D899A597CFDB3715ECC83791175936F8 /* ESTabBarItemBadgeView.swift */; };
+		FE420202E937808A24035D9EC0F62067 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA139F58402A898C70ABDC0B752727 /* HeroProgressRunner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		58D399FE3552DCB4407E6EC5F086C194 /* PBXContainerItemProxy */ = {
+		2E89AC6650F942DD653A8A91380B8E9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 05980618EF926C2C9896ADAFF4D9930F;
-			remoteInfo = "ESTabBarController-swift";
+			remoteGlobalIDString = 98F9700AF1702B7C5D9E758C1A1E3A2B;
+			remoteInfo = Hero;
 		};
 		590ADA8964BFB614E7F6114524F43115 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 72CA17A95D6933E645B7CB1D5E61251B;
+			remoteGlobalIDString = 71E1BD02BBE68E0A36541114CB2825C0;
 			remoteInfo = "Pods-finance-app";
 		};
 		A9F9E9BBE27942672D9CE47E02C28DF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 72CA17A95D6933E645B7CB1D5E61251B;
+			remoteGlobalIDString = 71E1BD02BBE68E0A36541114CB2825C0;
 			remoteInfo = "Pods-finance-app";
+		};
+		F2E37D01759602A8C4AC7CF6FAC6ADA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05980618EF926C2C9896ADAFF4D9930F;
+			remoteInfo = "ESTabBarController-swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		006F7E0C3F3A6B16CAFBAF4B06D90E89 /* Pods-finance-appTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-finance-appTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		007D5425DCBBEA8B7937E81296D1518A /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContainer.swift; path = Sources/ESTabBarItemContainer.swift; sourceTree = "<group>"; };
-		036FEBA26D9564BFA8D88757A856BE26 /* ESTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItem.swift; path = Sources/ESTabBarItem.swift; sourceTree = "<group>"; };
+		01AC98C209768E10096CCF3E381867F4 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
 		073AAD876B3938F4C705EE7703D60297 /* Pods-finance-appUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-finance-appUITests-dummy.m"; sourceTree = "<group>"; };
 		0935E35F543B4B2F98154AFC5145C297 /* Pods-finance-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-finance-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0F6A8572D53B93289552B995260A9A72 /* ESTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBar.swift; path = Sources/ESTabBar.swift; sourceTree = "<group>"; };
+		0C208A7BB937463B9315D8FAA04EE85D /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		0D3B1CB430B878A8503580C2E0AD53F6 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		0FA2781DBBE21A0A91DE5F8DA44DC899 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContentView.swift; path = Sources/ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		172D616E680AC39AB7C7BF817FE5B9BC /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		1781B933DBC4A2C4C13724DDF5893004 /* ESTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarController.swift; path = Sources/ESTabBarController.swift; sourceTree = "<group>"; };
 		1CC128F427F5DA05D8F09CE8032C56B1 /* Pods-finance-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-finance-app-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F70FE3F2C6A721A6ACA46334FAC345D /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemMoreContentView.swift; path = Sources/ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
 		234B956CF0577DCF8039BB341FC8EE35 /* Pods-finance-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-finance-app-acknowledgements.markdown"; sourceTree = "<group>"; };
 		254018D8C9E5A47987365B45265BC683 /* Pods-finance-appUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-finance-appUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2801A3A06FBCEBCE6AD9277872602864 /* Pods-finance-app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finance-app-resources.sh"; sourceTree = "<group>"; };
+		28683764720FA02B23E0F13AA379D351 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		2B99BC2DE34430F0D6B5D9E1C51086ED /* ESTabBarController-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ESTabBarController-swift.modulemap"; sourceTree = "<group>"; };
 		2C2190CD90C02B4DE01158839A50DFDD /* Pods-finance-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-finance-appUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2CAA003BA732A8C8AA50733C76976DCC /* Pods-finance-appTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-finance-appTests-dummy.m"; sourceTree = "<group>"; };
 		31B02EBA6572BB5EEC1B1BCB8230A22D /* Pods-finance-appUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-finance-appUITests-umbrella.h"; sourceTree = "<group>"; };
 		34BBBC52DF47005ABB1097478F18C80C /* Pods-finance-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-finance-appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C1A20405E427CA8F62EA86835551052 /* ESTabBarController-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTabBarController-swift-dummy.m"; sourceTree = "<group>"; };
+		391BCA36DB5369FF26044C135D2ADC98 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		3BEA139F58402A898C70ABDC0B752727 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		3EEAAC5E17CD6C3CBC1F9E48D0F9EEB4 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		3FD003D2BD32D41EE82E53643D015A9E /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		40EA441307C7F953F583841E833BE8BD /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		425B8F69D7B0AE9896DC4253B1AE44E0 /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESTabBarController_swift.framework; path = "ESTabBarController-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4150A1FA5348D4299D2E1D91ECA485 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD759CE4E8BC0BAD1170651EF11C14B /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
 		4D3B194A08EA76FDA61D82C269DADA7E /* Pods-finance-appTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-finance-appTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4FDD98856294AE6591B843AE30487FAB /* Pods-finance-appTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finance-appTests-resources.sh"; sourceTree = "<group>"; };
-		5226AB1468CCB70D54DC0ECF438CC7FA /* Pods_finance_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_finance_app.framework; path = "Pods-finance-app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5513CE1EBA0657AC1E035A7A2A16B0CE /* Pods-finance-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-finance-app.modulemap"; sourceTree = "<group>"; };
-		58BB7C897527AB44C89AA4DA75278E45 /* Pods_finance_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_finance_appUITests.framework; path = "Pods-finance-appUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		556FF9635984C061BEB63F60F1F70C9E /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		57AB25BD52BCB8577F1335ED84F1238B /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		5AC53B8AF18FFE6C0FE38F06C5AF8DE2 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		5D0C698FC4EC93B489CA154904C88CFA /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		5EC653601771E32B61E4A9DEEAD38443 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
 		5FDD89354647DCC376E810AFDC1962AE /* Pods-finance-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-finance-app-dummy.m"; sourceTree = "<group>"; };
-		65459C2B7C04855AC737F4B9D9BECDF3 /* ESTabBarController-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-prefix.pch"; sourceTree = "<group>"; };
+		630FEE06B9122D3890974DF15C01C7D4 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		671C44A6464F9DED999E21D4597CD66E /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		6CE43DFC1F83C21BE8175D279953E1C4 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		74AE71BA377EAE59765884B0902F8D97 /* ESTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItem.swift; path = Sources/ESTabBarItem.swift; sourceTree = "<group>"; };
+		74D979200C5773C2FC40467B8F32B86A /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		796F243D6FED364D21C8FC2FCDE43E40 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		79C5979CB40B9A5ED1485F5C6EEE0E2E /* Pods_finance_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_finance_appUITests.framework; path = "Pods-finance-appUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E942CDBCBE03E3442CC0982A5C515F /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
 		7A8E411432D9CEF8DDF98E93B573D059 /* Pods-finance-appUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finance-appUITests-resources.sh"; sourceTree = "<group>"; };
-		7B03C6352E4868A34FAB1FD24EA98056 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81A254516634B4AB497F0603969DC828 /* ESTabBarController-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESTabBarController-swift.xcconfig"; sourceTree = "<group>"; };
-		8CA10E9F2A24F56CCF101AFE407D810B /* ESTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarController.swift; path = Sources/ESTabBarController.swift; sourceTree = "<group>"; };
+		7B8EC9B663521263044296F19D0B3F6B /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		7C35BE531E4B383AE17AE4D72197A1D1 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		813E3B5270BF9542FE3DE74BE41BA8AD /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		81FBDC5578ACFE2FA40B1AF279A37EE1 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		84C18DB2C11016B7632666C89F79A892 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		89BF8642855073342A8158A6D09B2A03 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		8C0D59401621476FC7E3D4515AD010C0 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		91019425E0A8EBBA9DACBF9A5488990B /* Pods-finance-app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-finance-app-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94570F706E943C0C2349F49ADD40EC3F /* Pods-finance-appTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-finance-appTests-umbrella.h"; sourceTree = "<group>"; };
-		99E6FE6A9B121860F0D67D18513ABFCB /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Sources/en.lproj; sourceTree = "<group>"; };
-		9A9502D20E6A216DD410CC4E718502E3 /* ESTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContentView.swift; path = Sources/ESTabBarItemContentView.swift; sourceTree = "<group>"; };
+		96B7C7DEE0EAAE893010FFDA4F60D937 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		9A8B89A3CCAE582559A716FD9028C580 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		9BB39B21740F9652FE1B2127F4D784D6 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Sources/en.lproj; sourceTree = "<group>"; };
+		9F12A5EF86A932CF094F650DA9258037 /* ESTabBarController-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-umbrella.h"; sourceTree = "<group>"; };
+		A071475C9ABB9B1CCAE19A10F2E32378 /* ESTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemMoreContentView.swift; path = Sources/ESTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		A2FC7FC00F209C9FB21CC915FF481AB7 /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3177E673A41F4FCB183C65CC8721513 /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		A35A2867E31A303F2ECC97BA6B0ABF17 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		A3EC69B307706F4FAB23572045814A9E /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		A53375BD2CD84ADC59E58D548F0A1FF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75CBE7A4E69BC8EFC23840A855B801E /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		A797FF28E39980F53D61A12BE82357F4 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		A84B8F166CA891BB577EAD7A7A2D9025 /* ESTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBar.swift; path = Sources/ESTabBar.swift; sourceTree = "<group>"; };
+		A91994B6D34C14EFF984EEA70007DF46 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
 		ADE0F3E51B3D1B73EBFFC0F19C5699FB /* Pods-finance-appTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finance-appTests-frameworks.sh"; sourceTree = "<group>"; };
+		B1DAC77F246F49B6DD41882C9D60E8AD /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		B42141999374350AD96C6C9535AC6D6F /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
 		B5A6967D2243A0E716343DF51DB06389 /* Pods-finance-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-finance-app.debug.xcconfig"; sourceTree = "<group>"; };
+		B88260A4BEFDFF7C4B927D195FF21C0D /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		BB7091443985F7E86D84046BBF2A82C8 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC2C166FFD850BE688DD6A5834607D1E /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		BD2E03B9D1995457209B59DAC7814975 /* ESTabBarItemContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemContainer.swift; path = Sources/ESTabBarItemContainer.swift; sourceTree = "<group>"; };
 		BD3E3D08559B2ACD68EEB61DFC718ADC /* Pods-finance-app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finance-app-frameworks.sh"; sourceTree = "<group>"; };
-		C7F836624B597062F27892E071831000 /* Pods_finance_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_finance_appTests.framework; path = "Pods-finance-appTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF993182C0ACD023D8864BB39DC47D9D /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		C6E6D0D8D634D15C5CB5C5A8FE89653A /* ESTabBarController-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTabBarController-swift-dummy.m"; sourceTree = "<group>"; };
 		CA813E87976857D1E7E831D33E81DAB9 /* Pods-finance-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-finance-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE010B796A20AC4F2E9038997F5B8E3 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		CDCC2376CA58E4438AF3BDD75B711EC4 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		D158112991500F1229364F8DC91A6B8D /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
 		D84E59D031CD7FF3CC655D74E8ACED46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8558BCBB55A6B13268AAF5FDCD12EB3 /* ESTabBarController-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-prefix.pch"; sourceTree = "<group>"; };
+		D899A597CFDB3715ECC83791175936F8 /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemBadgeView.swift; path = Sources/ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		D8A1B261EDD7136FC9D97C246E193C0B /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
 		DB43EFD152C76B48362A21041E342B2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB7BAE1191342DDB1DBC88842D3E3EC9 /* Pods-finance-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-finance-app.release.xcconfig"; sourceTree = "<group>"; };
-		E10976EDAF46FFC498CE6EA001022470 /* ESTabBarController-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTabBarController-swift-umbrella.h"; sourceTree = "<group>"; };
 		E2097BA4C68C5A1875857EB99EA6F6D9 /* Pods-finance-appUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-finance-appUITests-frameworks.sh"; sourceTree = "<group>"; };
-		E2825C6F638434F4834D2EA455020837 /* ESTabBarItemBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESTabBarItemBadgeView.swift; path = Sources/ESTabBarItemBadgeView.swift; sourceTree = "<group>"; };
 		E71D25C655975E30FDB08ECEB415CE7C /* Pods-finance-appUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-finance-appUITests.modulemap"; sourceTree = "<group>"; };
 		E88221D519481898A0F14CEDC0FB845F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E90578E9B7C1E8546CCF7543CA9456BB /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESTabBarController_swift.framework; path = "ESTabBarController-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CD5B8380F4C55A4C16955B9ED73559 /* ESTabBarController-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ESTabBarController-swift.modulemap"; sourceTree = "<group>"; };
+		F2827275EF06BBF30F51A80FCF089053 /* Pods_finance_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_finance_app.framework; path = "Pods-finance-app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A3CB40C7D67713EB7D4AD3F4ACCB28 /* ESTabBarController-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESTabBarController-swift.xcconfig"; sourceTree = "<group>"; };
+		F5DA7DE6C349B559FDCE343F5FF959FA /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		FC63F5C8F9DB8A62C749BFD6E1F0A94E /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
 		FD08FE8D77D970E08D92C9B2AF35C2A0 /* Pods-finance-appUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-finance-appUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDCA1D137A31E809A88ADD3585C17BB8 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
 		FECE3BA766CF32EBD205E566138CC8C1 /* Pods-finance-appTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-finance-appTests.modulemap"; sourceTree = "<group>"; };
+		FEE58533387345A6E306ADC7EC37D753 /* Pods_finance_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_finance_appTests.framework; path = "Pods-finance-appTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F6D42B7711747FA55B2775FD4B3EC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72974110C62D6124860F8DFC862B479C /* Foundation.framework in Frameworks */,
+				5FD1DD09DAE8F4AB2CB278A03173F96F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA313AE20AE3CC486FD5382359376334 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,19 +233,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B995C8CC372D56873D2514C34469247A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A1B236E2436BDB090FE0EFF02389DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CFF698B8ABB1D9453CA180F43E2D1E90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B010F8264AC9C706D2BE84193272EE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AB865B6AF831424DA8B922DFA0ED6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A576042A7F4708F82E0BC777F01ABA99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +260,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		1B6C37CFAC952D7D61458EB891B6776D /* Pods-finance-appTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,56 +287,91 @@
 			path = "Target Support Files/Pods-finance-appTests";
 			sourceTree = "<group>";
 		};
-		391A5813EEA903C0B794A3484886A37E /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9CD5B8380F4C55A4C16955B9ED73559 /* ESTabBarController-swift.modulemap */,
-				81A254516634B4AB497F0603969DC828 /* ESTabBarController-swift.xcconfig */,
-				4C1A20405E427CA8F62EA86835551052 /* ESTabBarController-swift-dummy.m */,
-				65459C2B7C04855AC737F4B9D9BECDF3 /* ESTabBarController-swift-prefix.pch */,
-				E10976EDAF46FFC498CE6EA001022470 /* ESTabBarController-swift-umbrella.h */,
-				7B03C6352E4868A34FAB1FD24EA98056 /* Info.plist */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594505348B6C33E97EA7166D93897158 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B99BC2DE34430F0D6B5D9E1C51086ED /* ESTabBarController-swift.modulemap */,
+				F5A3CB40C7D67713EB7D4AD3F4ACCB28 /* ESTabBarController-swift.xcconfig */,
+				C6E6D0D8D634D15C5CB5C5A8FE89653A /* ESTabBarController-swift-dummy.m */,
+				D8558BCBB55A6B13268AAF5FDCD12EB3 /* ESTabBarController-swift-prefix.pch */,
+				9F12A5EF86A932CF094F650DA9258037 /* ESTabBarController-swift-umbrella.h */,
+				4B4150A1FA5348D4299D2E1D91ECA485 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ESTabBarController-swift";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		6C34EF84FA64E063B0105C8AD2D05B17 /* Hero */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				A797FF28E39980F53D61A12BE82357F4 /* Array+HeroModifier.swift */,
+				B88260A4BEFDFF7C4B927D195FF21C0D /* BasePreprocessor.swift */,
+				BC2C166FFD850BE688DD6A5834607D1E /* CALayer+Hero.swift */,
+				7B8EC9B663521263044296F19D0B3F6B /* CAMediaTimingFunction+Hero.swift */,
+				8C0D59401621476FC7E3D4515AD010C0 /* CascadePreprocessor.swift */,
+				79E942CDBCBE03E3442CC0982A5C515F /* CG+Hero.swift */,
+				D8A1B261EDD7136FC9D97C246E193C0B /* ConditionalPreprocessor.swift */,
+				0D3B1CB430B878A8503580C2E0AD53F6 /* DefaultAnimationPreprocessor.swift */,
+				671C44A6464F9DED999E21D4597CD66E /* DispatchQueue+Hero.swift */,
+				630FEE06B9122D3890974DF15C01C7D4 /* HeroAnimatorViewContext.swift */,
+				B42141999374350AD96C6C9535AC6D6F /* HeroCompatible.swift */,
+				01AC98C209768E10096CCF3E381867F4 /* HeroContext.swift */,
+				FC63F5C8F9DB8A62C749BFD6E1F0A94E /* HeroCoreAnimationViewContext.swift */,
+				A91994B6D34C14EFF984EEA70007DF46 /* HeroDebugPlugin.swift */,
+				57AB25BD52BCB8577F1335ED84F1238B /* HeroDebugView.swift */,
+				A35A2867E31A303F2ECC97BA6B0ABF17 /* HeroDefaultAnimator.swift */,
+				A75CBE7A4E69BC8EFC23840A855B801E /* HeroModifier.swift */,
+				796F243D6FED364D21C8FC2FCDE43E40 /* HeroModifier+HeroStringConvertible.swift */,
+				0C208A7BB937463B9315D8FAA04EE85D /* HeroPlugin.swift */,
+				3BEA139F58402A898C70ABDC0B752727 /* HeroProgressRunner.swift */,
+				3EEAAC5E17CD6C3CBC1F9E48D0F9EEB4 /* HeroStringConvertible.swift */,
+				A3177E673A41F4FCB183C65CC8721513 /* HeroTargetState.swift */,
+				28683764720FA02B23E0F13AA379D351 /* HeroTransition.swift */,
+				6CE43DFC1F83C21BE8175D279953E1C4 /* HeroTransition+Animate.swift */,
+				81FBDC5578ACFE2FA40B1AF279A37EE1 /* HeroTransition+Complete.swift */,
+				172D616E680AC39AB7C7BF817FE5B9BC /* HeroTransition+CustomTransition.swift */,
+				CAE010B796A20AC4F2E9038997F5B8E3 /* HeroTransition+Interactive.swift */,
+				5AC53B8AF18FFE6C0FE38F06C5AF8DE2 /* HeroTransition+Start.swift */,
+				3FD003D2BD32D41EE82E53643D015A9E /* HeroTransition+UINavigationControllerDelegate.swift */,
+				84C18DB2C11016B7632666C89F79A892 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				F5DA7DE6C349B559FDCE343F5FF959FA /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				391BCA36DB5369FF26044C135D2ADC98 /* HeroTransitionState.swift */,
+				B1DAC77F246F49B6DD41882C9D60E8AD /* HeroTypes.swift */,
+				5D0C698FC4EC93B489CA154904C88CFA /* HeroViewControllerDelegate.swift */,
+				FDCA1D137A31E809A88ADD3585C17BB8 /* HeroViewPropertyViewContext.swift */,
+				BF993182C0ACD023D8864BB39DC47D9D /* IgnoreSubviewModifiersPreprocessor.swift */,
+				CDCC2376CA58E4438AF3BDD75B711EC4 /* Lexer.swift */,
+				556FF9635984C061BEB63F60F1F70C9E /* MatchPreprocessor.swift */,
+				813E3B5270BF9542FE3DE74BE41BA8AD /* Nodes.swift */,
+				BB7091443985F7E86D84046BBF2A82C8 /* Parser.swift */,
+				40EA441307C7F953F583841E833BE8BD /* Regex.swift */,
+				89BF8642855073342A8158A6D09B2A03 /* SourcePreprocessor.swift */,
+				96B7C7DEE0EAAE893010FFDA4F60D937 /* UIKit+Hero.swift */,
+				9A8B89A3CCAE582559A716FD9028C580 /* UIView+Hero.swift */,
+				D158112991500F1229364F8DC91A6B8D /* UIViewController+Hero.swift */,
+				B556957DF1235B51A4D9057571EE55C4 /* Support Files */,
 			);
-			name = iOS;
+			name = Hero;
+			path = Hero;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8412FE1DBDD083780A8063DE1BC4908C /* Pods */,
-				87AF5E50416B13687CF18450275D0410 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F246A565D343581951F3E80BDD512A99 /* Pods */,
+				FC1AC62DF186103B000FB51F57B8FF8C /* Products */,
 				AAA9060EDBBDB155C5F35C0966F59932 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8412FE1DBDD083780A8063DE1BC4908C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EBDEB8A2C1515F8B9C23D8B03DC53D1D /* ESTabBarController-swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		87AF5E50416B13687CF18450275D0410 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E90578E9B7C1E8546CCF7543CA9456BB /* ESTabBarController_swift.framework */,
-				5226AB1468CCB70D54DC0ECF438CC7FA /* Pods_finance_app.framework */,
-				C7F836624B597062F27892E071831000 /* Pods_finance_appTests.framework */,
-				58BB7C897527AB44C89AA4DA75278E45 /* Pods_finance_appUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8F9E6169AD820E082E79BC9731587955 /* Pods-finance-appUITests */ = {
@@ -230,12 +392,21 @@
 			path = "Target Support Files/Pods-finance-appUITests";
 			sourceTree = "<group>";
 		};
-		9826CCB9EC59A1BC0763A7E0613023B5 /* Resources */ = {
+		A529F339ED3681BE3440F5CF3CBDEB83 /* ESTabBarController-swift */ = {
 			isa = PBXGroup;
 			children = (
-				99E6FE6A9B121860F0D67D18513ABFCB /* en.lproj */,
+				A84B8F166CA891BB577EAD7A7A2D9025 /* ESTabBar.swift */,
+				1781B933DBC4A2C4C13724DDF5893004 /* ESTabBarController.swift */,
+				74AE71BA377EAE59765884B0902F8D97 /* ESTabBarItem.swift */,
+				D899A597CFDB3715ECC83791175936F8 /* ESTabBarItemBadgeView.swift */,
+				BD2E03B9D1995457209B59DAC7814975 /* ESTabBarItemContainer.swift */,
+				0FA2781DBBE21A0A91DE5F8DA44DC899 /* ESTabBarItemContentView.swift */,
+				A071475C9ABB9B1CCAE19A10F2E32378 /* ESTabBarItemMoreContentView.swift */,
+				D2FB620B3CCFFEFBFFBE919E70713886 /* Resources */,
+				594505348B6C33E97EA7166D93897158 /* Support Files */,
 			);
-			name = Resources;
+			name = "ESTabBarController-swift";
+			path = "ESTabBarController-swift";
 			sourceTree = "<group>";
 		};
 		AAA9060EDBBDB155C5F35C0966F59932 /* Targets Support Files */ = {
@@ -248,12 +419,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B556957DF1235B51A4D9057571EE55C4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				4BD759CE4E8BC0BAD1170651EF11C14B /* Hero.modulemap */,
+				5EC653601771E32B61E4A9DEEAD38443 /* Hero.xcconfig */,
+				7C35BE531E4B383AE17AE4D72197A1D1 /* Hero-dummy.m */,
+				A3EC69B307706F4FAB23572045814A9E /* Hero-prefix.pch */,
+				74D979200C5773C2FC40467B8F32B86A /* Hero-umbrella.h */,
+				A53375BD2CD84ADC59E58D548F0A1FF3 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		D2FB620B3CCFFEFBFFBE919E70713886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BB39B21740F9652FE1B2127F4D784D6 /* en.lproj */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		E3BC66FE8F2C892EC826EE0EE65828E7 /* Pods-finance-app */ = {
@@ -274,21 +459,25 @@
 			path = "Target Support Files/Pods-finance-app";
 			sourceTree = "<group>";
 		};
-		EBDEB8A2C1515F8B9C23D8B03DC53D1D /* ESTabBarController-swift */ = {
+		F246A565D343581951F3E80BDD512A99 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F6A8572D53B93289552B995260A9A72 /* ESTabBar.swift */,
-				8CA10E9F2A24F56CCF101AFE407D810B /* ESTabBarController.swift */,
-				036FEBA26D9564BFA8D88757A856BE26 /* ESTabBarItem.swift */,
-				E2825C6F638434F4834D2EA455020837 /* ESTabBarItemBadgeView.swift */,
-				007D5425DCBBEA8B7937E81296D1518A /* ESTabBarItemContainer.swift */,
-				9A9502D20E6A216DD410CC4E718502E3 /* ESTabBarItemContentView.swift */,
-				1F70FE3F2C6A721A6ACA46334FAC345D /* ESTabBarItemMoreContentView.swift */,
-				9826CCB9EC59A1BC0763A7E0613023B5 /* Resources */,
-				391A5813EEA903C0B794A3484886A37E /* Support Files */,
+				A529F339ED3681BE3440F5CF3CBDEB83 /* ESTabBarController-swift */,
+				6C34EF84FA64E063B0105C8AD2D05B17 /* Hero */,
 			);
-			name = "ESTabBarController-swift";
-			path = "ESTabBarController-swift";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC1AC62DF186103B000FB51F57B8FF8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425B8F69D7B0AE9896DC4253B1AE44E0 /* ESTabBarController_swift.framework */,
+				A2FC7FC00F209C9FB21CC915FF481AB7 /* Hero.framework */,
+				F2827275EF06BBF30F51A80FCF089053 /* Pods_finance_app.framework */,
+				FEE58533387345A6E306ADC7EC37D753 /* Pods_finance_appTests.framework */,
+				79C5979CB40B9A5ED1485F5C6EEE0E2E /* Pods_finance_appUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,19 +491,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823B08EE1424E1A94F184D60B922E739 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C824053E621164715BC88403AA5432F /* Pods-finance-app-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87BD9583923EC571DEF1D611C9B3E39B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB5DFF8BF765ED40E06944FE0C38DF9B /* Pods-finance-appUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2E1081D514DBBCD8B0B5FAFF3AED1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414908427F17B27ED00C92F24F3277C7 /* Pods-finance-app-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB4B28099F4E4E8A747AB691FCD30A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB374F9285505666B1113879A725EEF /* Hero-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,26 +541,45 @@
 			);
 			name = "ESTabBarController-swift";
 			productName = "ESTabBarController-swift";
-			productReference = E90578E9B7C1E8546CCF7543CA9456BB /* ESTabBarController_swift.framework */;
+			productReference = 425B8F69D7B0AE9896DC4253B1AE44E0 /* ESTabBarController_swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		72CA17A95D6933E645B7CB1D5E61251B /* Pods-finance-app */ = {
+		71E1BD02BBE68E0A36541114CB2825C0 /* Pods-finance-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52ADE88F2C814A07F6117103C073F022 /* Build configuration list for PBXNativeTarget "Pods-finance-app" */;
+			buildConfigurationList = DFAF0EFAA302AE6EB88164B11DCEF5CE /* Build configuration list for PBXNativeTarget "Pods-finance-app" */;
 			buildPhases = (
-				823B08EE1424E1A94F184D60B922E739 /* Headers */,
-				84137C0A3121146D831BD9FD88B9B457 /* Sources */,
-				D2AB865B6AF831424DA8B922DFA0ED6B /* Frameworks */,
-				ECBBA307AF5388F5CEEBA0A8D68FF981 /* Resources */,
+				ED2E1081D514DBBCD8B0B5FAFF3AED1A /* Headers */,
+				DBEB16EBDB59FD0AFFF13B7CAC38BA6D /* Sources */,
+				B995C8CC372D56873D2514C34469247A /* Frameworks */,
+				15CF22C14E6DFC9829C594A0B3B6CEF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				76F8B62FE5DFE2354C4CE26E88F0B5DB /* PBXTargetDependency */,
+				E2D3C84A59A7DAC403F09326E1F2CFF1 /* PBXTargetDependency */,
+				31C792D74F3D817A348F4E7482B0FC8F /* PBXTargetDependency */,
 			);
 			name = "Pods-finance-app";
 			productName = "Pods-finance-app";
-			productReference = 5226AB1468CCB70D54DC0ECF438CC7FA /* Pods_finance_app.framework */;
+			productReference = F2827275EF06BBF30F51A80FCF089053 /* Pods_finance_app.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98F9700AF1702B7C5D9E758C1A1E3A2B /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EEE0F4DA36142B2F20DF4963B7861E /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				EDB4B28099F4E4E8A747AB691FCD30A2 /* Headers */,
+				AE2B153DACBB005BA17E49154F04036E /* Sources */,
+				2F6D42B7711747FA55B2775FD4B3EC64 /* Frameworks */,
+				86EC8FBBCBBEAF05807CFA19F5514901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = A2FC7FC00F209C9FB21CC915FF481AB7 /* Hero.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4EC55B990EAB673C5B953BB133523AF /* Pods-finance-appTests */ = {
@@ -382,7 +598,7 @@
 			);
 			name = "Pods-finance-appTests";
 			productName = "Pods-finance-appTests";
-			productReference = C7F836624B597062F27892E071831000 /* Pods_finance_appTests.framework */;
+			productReference = FEE58533387345A6E306ADC7EC37D753 /* Pods_finance_appTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5D72DD0043144026A5A65F3671D610F /* Pods-finance-appUITests */ = {
@@ -401,7 +617,7 @@
 			);
 			name = "Pods-finance-appUITests";
 			productName = "Pods-finance-appUITests";
-			productReference = 58BB7C897527AB44C89AA4DA75278E45 /* Pods_finance_appUITests.framework */;
+			productReference = 79C5979CB40B9A5ED1485F5C6EEE0E2E /* Pods_finance_appUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -421,12 +637,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 87AF5E50416B13687CF18450275D0410 /* Products */;
+			productRefGroup = FC1AC62DF186103B000FB51F57B8FF8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				05980618EF926C2C9896ADAFF4D9930F /* ESTabBarController-swift */,
-				72CA17A95D6933E645B7CB1D5E61251B /* Pods-finance-app */,
+				98F9700AF1702B7C5D9E758C1A1E3A2B /* Hero */,
+				71E1BD02BBE68E0A36541114CB2825C0 /* Pods-finance-app */,
 				B4EC55B990EAB673C5B953BB133523AF /* Pods-finance-appTests */,
 				B5D72DD0043144026A5A65F3671D610F /* Pods-finance-appUITests */,
 			);
@@ -434,7 +651,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		15CF22C14E6DFC9829C594A0B3B6CEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30949BCE25B1CEEC016EDCDE414219EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EC8FBBCBBEAF05807CFA19F5514901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,13 +677,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E5A14FC7FD042DC0E5271E899875BBA /* en.lproj in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECBBA307AF5388F5CEEBA0A8D68FF981 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,11 +713,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84137C0A3121146D831BD9FD88B9B457 /* Sources */ = {
+		AE2B153DACBB005BA17E49154F04036E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3D615D3CE949D68C4775A57960787A /* Pods-finance-app-dummy.m in Sources */,
+				5BFC77CEEA4E421AC619D5808D378A93 /* Array+HeroModifier.swift in Sources */,
+				A8BAEDAF25017F3C61A1F6BAECF07CF8 /* BasePreprocessor.swift in Sources */,
+				3EDDB8DA09445C9981C97D8C7226DFB2 /* CALayer+Hero.swift in Sources */,
+				F60C14BAEFBE5D60753468F1E66284AA /* CAMediaTimingFunction+Hero.swift in Sources */,
+				9F240CC81313E9FF05DDE385D158BF9C /* CascadePreprocessor.swift in Sources */,
+				1A8DE7DC6EA68BA56067CBC46913ECE1 /* CG+Hero.swift in Sources */,
+				C6209A6A34B9364C11339812819F784C /* ConditionalPreprocessor.swift in Sources */,
+				1936B01C5D3224DE0A2EA327672BCE1A /* DefaultAnimationPreprocessor.swift in Sources */,
+				EF28D714D7E5E19FFF18352AA9539C1B /* DispatchQueue+Hero.swift in Sources */,
+				5B00A79CF6F7A0D09522667BEB5DCF5F /* Hero-dummy.m in Sources */,
+				09B4BED5F4E3FAA4FEB84F7EF9D97841 /* HeroAnimatorViewContext.swift in Sources */,
+				38ACDE0DF34909BFF69AE3BE738BD43F /* HeroCompatible.swift in Sources */,
+				B19B9466FBF475576C45A2DEE4252A91 /* HeroContext.swift in Sources */,
+				5AB42FC0D87DCF867841712D229E4521 /* HeroCoreAnimationViewContext.swift in Sources */,
+				B4B388B8F6FDDE8C2BE22AC87E95FE56 /* HeroDebugPlugin.swift in Sources */,
+				99C2EBFBA2955DF6398F9550DF5245FA /* HeroDebugView.swift in Sources */,
+				2A1F75A11800E185E26D5E442835AC7D /* HeroDefaultAnimator.swift in Sources */,
+				1349B7E61C548402E2808E92A7BA4B5E /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				78CCDC2B70FF0482E95252C1365C3204 /* HeroModifier.swift in Sources */,
+				759EAADECF55BF30F968EF19F1CB9FF4 /* HeroPlugin.swift in Sources */,
+				FE420202E937808A24035D9EC0F62067 /* HeroProgressRunner.swift in Sources */,
+				E682338D103F4A23B28ABEF910C61599 /* HeroStringConvertible.swift in Sources */,
+				E4345235C6545DB48F0F859E7714E68F /* HeroTargetState.swift in Sources */,
+				0AC6BFAFD48EB1271503CB0E82994B5D /* HeroTransition+Animate.swift in Sources */,
+				17C1D4357243F5D3BDA3DB5B8E6B9B5B /* HeroTransition+Complete.swift in Sources */,
+				1FE24D87AC075FA15D5ADF13BB193037 /* HeroTransition+CustomTransition.swift in Sources */,
+				A3287501AFD9F7071A224AD3C3FFDF58 /* HeroTransition+Interactive.swift in Sources */,
+				AD827DC2A11268E8D5B0A2CD1CC2D1AD /* HeroTransition+Start.swift in Sources */,
+				BF296E4014D347F98B928398694F9461 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				F82707F21C810EA6BD652C38E67FE535 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				8E75511F183C72276DBAC719E4885B4A /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				7517B8CACD655BB56DFEE9FA02F0D82A /* HeroTransition.swift in Sources */,
+				B7630FD9D8C01A8114FB22FEFF77C393 /* HeroTransitionState.swift in Sources */,
+				5ADF1DD2EFEFFA07890EE6DE56F3A35E /* HeroTypes.swift in Sources */,
+				CCDD8368BAFF83A91BFEBD13B105E52B /* HeroViewControllerDelegate.swift in Sources */,
+				AF5617DE771E8E321FB7C526F76229BC /* HeroViewPropertyViewContext.swift in Sources */,
+				EBEC8F80F8CFDABA5C3E0AAF95D21CFF /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				292E09257EF91BD4ED2C65939B02DE76 /* Lexer.swift in Sources */,
+				63AC0A94F4C06BDAE3CB0C1852821F85 /* MatchPreprocessor.swift in Sources */,
+				C5D8B60C2202B69D7FC001A92C6E198D /* Nodes.swift in Sources */,
+				C08B6282E4E518773F633ECA6B2AD27F /* Parser.swift in Sources */,
+				15C88A7113C79C7BF327E59744B3E3BC /* Regex.swift in Sources */,
+				D5D5A5E3A5AE94AE02CCF174CBC1DA7B /* SourcePreprocessor.swift in Sources */,
+				A6FB4694E49F6EE8D08212523563CA81 /* UIKit+Hero.swift in Sources */,
+				2EF76EA82E380062E6A20AE164FDE20D /* UIView+Hero.swift in Sources */,
+				5372EADECAE1C46077FDAAEB9E339E6E /* UIViewController+Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,25 +774,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBEB16EBDB59FD0AFFF13B7CAC38BA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9645DA8E28A2C17400FAD55878204F9F /* Pods-finance-app-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76F8B62FE5DFE2354C4CE26E88F0B5DB /* PBXTargetDependency */ = {
+		31C792D74F3D817A348F4E7482B0FC8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "ESTabBarController-swift";
-			target = 05980618EF926C2C9896ADAFF4D9930F /* ESTabBarController-swift */;
-			targetProxy = 58D399FE3552DCB4407E6EC5F086C194 /* PBXContainerItemProxy */;
+			name = Hero;
+			target = 98F9700AF1702B7C5D9E758C1A1E3A2B /* Hero */;
+			targetProxy = 2E89AC6650F942DD653A8A91380B8E9D /* PBXContainerItemProxy */;
 		};
 		AEAF112F1FBF13AB1F38EF11465C7FD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-finance-app";
-			target = 72CA17A95D6933E645B7CB1D5E61251B /* Pods-finance-app */;
+			target = 71E1BD02BBE68E0A36541114CB2825C0 /* Pods-finance-app */;
 			targetProxy = A9F9E9BBE27942672D9CE47E02C28DF5 /* PBXContainerItemProxy */;
+		};
+		E2D3C84A59A7DAC403F09326E1F2CFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESTabBarController-swift";
+			target = 05980618EF926C2C9896ADAFF4D9930F /* ESTabBarController-swift */;
+			targetProxy = F2E37D01759602A8C4AC7CF6FAC6ADA5 /* PBXContainerItemProxy */;
 		};
 		F0E40B7D26204BCB122FA92FA915BF41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-finance-app";
-			target = 72CA17A95D6933E645B7CB1D5E61251B /* Pods-finance-app */;
+			target = 71E1BD02BBE68E0A36541114CB2825C0 /* Pods-finance-app */;
 			targetProxy = 590ADA8964BFB614E7F6114524F43115 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -590,7 +873,7 @@
 		};
 		2B5AA5D97867C23B8DD816D1F5C678F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81A254516634B4AB497F0603969DC828 /* ESTabBarController-swift.xcconfig */;
+			baseConfigurationReference = F5A3CB40C7D67713EB7D4AD3F4ACCB28 /* ESTabBarController-swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -706,7 +989,7 @@
 		};
 		5EF8F0DD4E968CBBFFF98528AA6B823B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81A254516634B4AB497F0603969DC828 /* ESTabBarController-swift.xcconfig */;
+			baseConfigurationReference = F5A3CB40C7D67713EB7D4AD3F4ACCB28 /* ESTabBarController-swift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -740,7 +1023,85 @@
 			};
 			name = Debug;
 		};
-		92A5402C2CE071D5F96E812A8807761C /* Release */ = {
+		65589D1E91765A2DB540426456B8EB98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A6967D2243A0E716343DF51DB06389 /* Pods-finance-app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-finance-app/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-finance-app/Pods-finance-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		710B21A268F622B15CFF392609630E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC653601771E32B61E4A9DEEAD38443 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77BAB1A0FC480D00936B7A3A05D369C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB7BAE1191342DDB1DBC88842D3E3EC9 /* Pods-finance-app.release.xcconfig */;
 			buildSettings = {
@@ -781,6 +1142,42 @@
 			};
 			name = Release;
 		};
+		9A66C38C1E300DC64D7133807FEDDCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC653601771E32B61E4A9DEEAD38443 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B0A7127E08C53FC3FB96A76BA8D5D1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0935E35F543B4B2F98154AFC5145C297 /* Pods-finance-appUITests.debug.xcconfig */;
@@ -813,46 +1210,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B39F2276688817419074DBCAC3113EED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5A6967D2243A0E716343DF51DB06389 /* Pods-finance-app.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-finance-app/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-finance-app/Pods-finance-app.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -982,11 +1339,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52ADE88F2C814A07F6117103C073F022 /* Build configuration list for PBXNativeTarget "Pods-finance-app" */ = {
+		41EEE0F4DA36142B2F20DF4963B7861E /* Build configuration list for PBXNativeTarget "Hero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B39F2276688817419074DBCAC3113EED /* Debug */,
-				92A5402C2CE071D5F96E812A8807761C /* Release */,
+				9A66C38C1E300DC64D7133807FEDDCDD /* Debug */,
+				710B21A268F622B15CFF392609630E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1005,6 +1362,15 @@
 			buildConfigurations = (
 				B0A7127E08C53FC3FB96A76BA8D5D1E1 /* Debug */,
 				470EF660DD8437D750303BD22F3F3207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAF0EFAA302AE6EB88164B11DCEF5CE /* Build configuration list for PBXNativeTarget "Pods-finance-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65589D1E91765A2DB540426456B8EB98 /* Debug */,
+				77BAB1A0FC480D00936B7A3A05D369C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

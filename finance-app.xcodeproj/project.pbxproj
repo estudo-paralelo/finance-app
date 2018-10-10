@@ -13,7 +13,6 @@
 		AC27B2282150299D001092C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27B2272150299D001092C4 /* AppDelegate.swift */; };
 		AC27B22A2150299D001092C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27B2292150299D001092C4 /* ViewController.swift */; };
 		AC27B22D2150299D001092C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27B22B2150299D001092C4 /* Main.storyboard */; };
-		AC27B22F2150299E001092C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC27B22E2150299E001092C4 /* Assets.xcassets */; };
 		AC27B2322150299E001092C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27B2302150299E001092C4 /* LaunchScreen.storyboard */; };
 		AC27B23D2150299E001092C4 /* finance_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27B23C2150299E001092C4 /* finance_appTests.swift */; };
 		AC27B2482150299E001092C4 /* finance_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27B2472150299E001092C4 /* finance_appUITests.swift */; };
@@ -21,6 +20,8 @@
 		AC3C20EB2164140600751B59 /* TabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20EA2164140600751B59 /* TabBarItemContentView.swift */; };
 		AC3C20ED216414EB00751B59 /* BouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20EC216414EB00751B59 /* BouncesContentView.swift */; };
 		AC3C20EF216415E800751B59 /* ExampleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20EE216415E800751B59 /* ExampleNavigationController.swift */; };
+		AC3C20F121655A0300751B59 /* IrregularTabBarIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3C20F021655A0300751B59 /* IrregularTabBarIconView.swift */; };
+		AC3C20F321656A4B00751B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3C20F221656A4100751B59 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,6 @@
 		AC27B2272150299D001092C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC27B2292150299D001092C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC27B22C2150299D001092C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC27B22E2150299E001092C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC27B2312150299E001092C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC27B2332150299E001092C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC27B2382150299E001092C4 /* finance-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "finance-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +61,8 @@
 		AC3C20EA2164140600751B59 /* TabBarItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemContentView.swift; sourceTree = "<group>"; };
 		AC3C20EC216414EB00751B59 /* BouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncesContentView.swift; sourceTree = "<group>"; };
 		AC3C20EE216415E800751B59 /* ExampleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleNavigationController.swift; sourceTree = "<group>"; };
+		AC3C20F021655A0300751B59 /* IrregularTabBarIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrregularTabBarIconView.swift; sourceTree = "<group>"; };
+		AC3C20F221656A4100751B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1E5B88F52661C692E2B87FA /* Pods_finance_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finance_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB731FEB3D7732D02C6ABCB /* Pods-finance-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finance-appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-finance-appUITests/Pods-finance-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D44A0954746BA793532E69FC /* Pods-finance-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finance-appUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-finance-appUITests/Pods-finance-appUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,16 +124,17 @@
 		AC27B2262150299D001092C4 /* finance-app */ = {
 			isa = PBXGroup;
 			children = (
+				AC3C20F221656A4100751B59 /* Assets.xcassets */,
 				AC27B2272150299D001092C4 /* AppDelegate.swift */,
 				AC27B2292150299D001092C4 /* ViewController.swift */,
 				AC3C20E8216412AE00751B59 /* ExampleViewController.swift */,
 				AC27B22B2150299D001092C4 /* Main.storyboard */,
-				AC27B22E2150299E001092C4 /* Assets.xcassets */,
 				AC27B2302150299E001092C4 /* LaunchScreen.storyboard */,
 				AC27B2332150299E001092C4 /* Info.plist */,
 				AC3C20EA2164140600751B59 /* TabBarItemContentView.swift */,
 				AC3C20EC216414EB00751B59 /* BouncesContentView.swift */,
 				AC3C20EE216415E800751B59 /* ExampleNavigationController.swift */,
+				AC3C20F021655A0300751B59 /* IrregularTabBarIconView.swift */,
 			);
 			path = "finance-app";
 			sourceTree = "<group>";
@@ -286,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC27B2322150299E001092C4 /* LaunchScreen.storyboard in Resources */,
-				AC27B22F2150299E001092C4 /* Assets.xcassets in Resources */,
+				AC3C20F321656A4B00751B59 /* Assets.xcassets in Resources */,
 				AC27B22D2150299D001092C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,12 +321,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-finance-app/Pods-finance-app-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3C20F121655A0300751B59 /* IrregularTabBarIconView.swift in Sources */,
 				AC27B22A2150299D001092C4 /* ViewController.swift in Sources */,
 				AC27B2282150299D001092C4 /* AppDelegate.swift in Sources */,
 				AC3C20ED216414EB00751B59 /* BouncesContentView.swift in Sources */,
